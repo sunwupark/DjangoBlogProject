@@ -1,7 +1,22 @@
 .page-header {
     background-color: #ff9400;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    display:flex;
+    
+
+}
+
+.page-header-title {
+    font-size: 50px;
+    color: #ffffff;
+    padding-left: 30px;
+}
+
+.page-header-item {
+    font-size: 26px;
+    color: #ffffff;
+    margin-left: auto;
+    padding-top: 10px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -11,11 +26,85 @@
 }
 
 .content {
-    margin-left: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.one {
+    background-size: cover;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+.two {
+    background-size: cover;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+
+.profile {
+    border-radius: 30%;
+    display: inline-block;
+    padding: 0.5rem;
+    margin-top: 20px;
+    border: 1px solid gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+}
+
+.profile img {
+    border-radius: 30%;
+}
+
+/* page 2 */
+
+.intext {
+    margin-top: 35px;
+}
+
+/* page 3 */
+
+.lists{
+    text-align: center;
+    font-family: 'Pretendard-Thin';
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Pretendard-Thin';
+    font-size: 18px;
+    line-height: 1.5;
+    font-style: italic;
+    margin: 0 auto;
+
+}
+
+.list_img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 7vh 5vh;
+    margin-bottom: 50px;
+}
+
+.favorites {
+    display:inline-flex;
+    margin-top: 60px;
+}
+
+/* page 4 */
+
+.four {
+    text-align: center;
+    align-items: center;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
+    text-align: center;
 }
 
 .date {
@@ -43,4 +132,8 @@ h1, h2, h3, h4 {
 
 .post h1 a, .post h1 a:visited {
     color: #000000;
+}
+
+.logo{
+    object-fit: contain;
 }
